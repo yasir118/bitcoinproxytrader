@@ -1,0 +1,8 @@
+# The collector folder holds credentials/config and logs: never serve it over HTTP.
+<IfModule mod_authz_core.c>
+    Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+</IfModule>

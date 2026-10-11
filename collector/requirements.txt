@@ -1,0 +1,2 @@
+# Only one third-party package is needed (pure Python MySQL driver). Everything else is the standard library.
+pymysql>=1.1

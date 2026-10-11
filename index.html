@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BitcoinProxyTrader</title>
+  <meta name="description" content="MSTR, bitcoin-proxy equities and Bitcoin: prices, RSI, options, treasury, insiders and signals in one local dashboard.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23f7931a'/%3E%3Cpath d='M12.2 8.5h6a3.2 3.2 0 0 1 0 6.4h-6M12.2 14.9h6.9a3.3 3.3 0 0 1 0 6.6h-6.9M12.2 8.5v13M14.4 5.6v2.9M14.4 21.5v2.9M18.2 5.6v2.9M18.2 21.5v2.9' fill='none' stroke='%23fff' stroke-width='2.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="rail" id="rail"></aside>
+    <main id="main">
+      <!-- Static fallback: visible only if the app's JavaScript never runs (file preview / opened as a file). main.js removes it on start. -->
+      <div id="boot" style="font-family:'Segoe UI',system-ui,sans-serif;max-width:580px;margin:10vh auto;padding:28px;background:#fff;border-radius:22px;line-height:1.55;color:#141414">
+        <h2 style="margin:0 0 10px;font-weight:600">BitcoinProxyTrader runs from the web server</h2>
+        <p style="margin:0 0 10px">If you only see this message, the page was opened as a plain file (or in a preview that doesn't run scripts). Start <b>Apache</b> and <b>MySQL</b> in the XAMPP control panel, then open it in your browser:</p>
+        <p style="font-size:20px;margin:0 0 10px"><a href="http://localhost/cc/MSTR/" style="color:#d97a05">http://localhost/cc/MSTR/</a></p>
+        <p style="margin:0;color:#666">On a phone or another computer: use the address of the server that hosts it.</p>
+      </div>
+    </main>
+  </div>
+  <script src="assets/vendor/lightweight-charts.standalone.production.js"></script>
+  <script src="assets/vendor/chart.umd.min.js"></script>
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

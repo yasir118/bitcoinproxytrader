@@ -1,0 +1,8 @@
+# secrets / machine-specific
+collector/config.local.json
+collector/logs/
+__pycache__/
+*.pyc
+# generated
+site/
+deploy/out/
